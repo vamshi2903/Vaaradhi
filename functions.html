@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <fieldset>
+        <legend>LOGIN FORM</legend>
+        <input type="text" id="uname" placeholder="Enter user name">
+        <br><br>
+        <input type="password" id="upwd" placeholder="Enter your password">
+        <br><br>
+        <button onclick="login()">Login</button>
+        <h1 id="res"></h1>
+    </fieldset>
+    <script>
+        let login = ()=>{
+            let uname = document.getElementById("uname").value;
+            let upwd = document.getElementById("upwd").value;
+            if(uname == "ExcelR" && upwd = "ExcelR@123"){
+                document.getElementById("res").value = "Login Success"
+            }else{
+                document.getElementById("res").value = "Login Failed"
+            }
+        }
+    </script> -->
+
+    <!-- <fieldset>
+        <legend>Calculator</legend>
+        <input type="number" id="num1" placeholder="enter num1">
+        <br><br>
+        <input type="number" id="num2" placeholder="enter num2">
+        <br><br>
+        <input type="number" id="res" placeholder="result">
+        <br><br>
+        <button onclick="add()">ADD</button>
+        <button onclick="sub()">SUB</button>
+    </fieldset>
+    <script>
+        let add = ()=>{
+            let x = parseInt(document.getElementById("num1").value);
+            let y = parseInt(document.getElementById("num2").value);
+            let z = x+y;
+            document.getElementById("res").value = z;
+        }
+        let sub = ()=>{
+            let x = parseInt(document.getElementById("num1").value);
+            let y = parseInt(document.getElementById("num2").value);
+            let z = x-y;
+            document.getElementById("res").value = z;
+        }
+    </script> -->
+
+    <!-- <p>FirstName</p>
+    <input type="text" id="FirstName">
+    <br><br>
+    <p>LastName</p>
+    <input type="text" id="LastName">
+    <br><br>
+    <p>FULLNAME</p>
+    <input type="text" id="FULLNAME">
+    <br><br>
+    <button onclick="fullname()">FULLNAME</button>
+
+    <script>
+        let fullname = ()=>{
+            let x = document.getElementById("FirstName").value;
+            let y = document.getElementById("LastName").value;
+            let z= x+y;
+            document.getElementById("FULLNAME").value = z;
+        }
+    </script> -->
+
+    <!-- <p>FirstName</p>
+    <input type="text" id="FirstName">
+    <br><br>
+    <p>LastName</p>
+    <input type="text" id="LastName">
+    <br><br>
+    <button onclick="hai()">FullName</button>
+    <h3 id="res"></h3>
+    <script>
+        let hai = ()=>{
+            let x= document.getElementById("FirstName").value;
+            let y = document.getElementById("LastName").value;
+            document.getElementById("res").innerHTML = "welcome to " + x +" "+y;
+        }
+    </script> -->
+
+
+    <!-- <script>
+        function class1(){
+            this.x="FrontEnd";
+        }
+        let obj1= new class1();
+        ler res = obj1.x;
+        document.write(res);
+    </script> -->
+
+
+
+    <!-- <script>
+        function class1(){
+
+        }
+        class1.prototype.x = "Hello";
+        let obj = new class1();
+        let res = obj.x;
+        document.write(res);
+    </script> -->
+
+
+    <!-- <script>
+        function class1(){
+            this.func_one = function(){
+                document.write("Hello");
+            }
+        }
+        let obj = class1();
+        obj.func_one;
+    </script> -->
+    <!-- <script>
+        function class1(){}
+        class1.prototype.a = 100;
+        class1.prototype.b = 200;
+        class1.prototype.func_one=function(){
+            document.write("H")
+        }
+        class1.prototype.func_two=function(){
+            document.write("f")
+        }
+        function class2(){}
+        class2.prototype= Object.create(class1.prototype);
+        class2.prototype.c = 300;
+        class2.prototype.d = 400;
+        class2.prototype.func_three=function(){
+            document.write("j")
+        }
+        class2.prototype.func_four=function(){
+            document.write("f")
+        }
+        function class3(){}
+        class3.prototype= Object.create(class2.prototype);
+        class3.prototype.e = 500;
+        class3.prototype.f = 600;
+        class3.prototype.func_five=function(){
+            document.write("j")
+        }
+        class3.prototype.func_six=function(){
+            document.write("f")
+        }
+
+
+        let obj = new class3();
+        let res1=obj.a;
+        let res2=obj.b;
+        let res3=obj.c;
+        document.write(res1);
+        document.write(res2);
+        document.write(res3);
+        obj.func_one;
+        obj.func_two;
+        obj.func_three;
+    </script> -->
+
+    <!-- <script>
+        (()=>{
+            document.write("HAI")
+        })()
+    </script> -->
+
+    <!-- <script>
+        ((num1,num2)=>{
+            document.write(num1 + num2);
+        })(10,20)
+    </script> -->
+    <!-- <script>
+        let res = (()=>{
+            return "ExcelR"
+        })();
+        document.write(res);
+    </script> -->
+    <!-- <script>
+        let func_one = (param1)=>{
+            return `welcome to ${param1}`;
+        };
+        
+        let res =func_one(
+            (()=>{
+                return `excelr`
+            })()
+        );
+        document.write(res);
+    </script> -->
+
+    <!-- <script>
+        function *func_one(){
+            yield 100;
+            yield 200;
+            yield 300;
+        }
+        let iterator = func_one();
+        console.log( iterator.next());
+        console.log( iterator.next());
+        console.log( iterator.next());
+    </script> -->
+
+    <!-- <script>
+        function *func_one(){
+            yield `excelR`
+            yield `Java`
+        }
+        let iterator=func_one();
+        console.log(iterator.next());
+        console.log( iterator.next());
+        console.log( iterator.next());
+    </script> -->
+
+    <!-- <script>
+        function *func_one(){
+            yield 100;
+            yield 200;
+            return 300;
+            yield 400;
+        }
+        let iterator = func_one();
+        for( let i=1;i<4;i++){
+            console.log(iterator.next());
+        }
+    </script> -->
+
+    <!-- <script>
+        function *func_one(){
+            yield 100;
+            yield *func_two();   
+        }
+        function *func_two(){
+            yield 200;
+        }
+        let iterator = func_one();
+        for( let i=1;i<4;i++){
+            console.log(iterator.next());
+        }
+    </script> -->
+
+
+
+
+
+</body> 
+</html>
